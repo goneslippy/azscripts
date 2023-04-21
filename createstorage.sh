@@ -1,4 +1,4 @@
-
+backend_storage_creation(){
 rg=$storerg
 sa=state$RANDOM
 container=$storecontainer-$RANDOM
@@ -37,3 +37,6 @@ echo "Storage Account: $sa"
 echo "Container name: $container"
 echo "key can be any name ending with .tfstate"
 }
+
+
+backend_storage_creation
