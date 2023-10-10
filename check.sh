@@ -1,5 +1,5 @@
 #!/bin/bash 
-tee {
+{
 hostname > /home/made.txt
 ps aux | grep azure >> /home/made.txt
 sudo yum install nmap -y 
